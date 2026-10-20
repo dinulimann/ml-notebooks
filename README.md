@@ -1,6 +1,6 @@
 # ML & Data Analysis Notebooks
 
-A collection of my machine-learning and data-analysis notebooks from 2024–2025, gathered in one place. Each folder used to be its own repository; its commit history is preserved here.
+A collection of my machine-learning and data-analysis notebooks from 2023–2025, gathered in one place. Each folder used to be its own repository; its commit history is preserved here.
 
 These are learning projects and experiments, not production systems. The notes below say plainly what worked and what didn't. For production-style work, see my [other repositories](https://github.com/dinulimann).
 
@@ -13,6 +13,7 @@ These are learning projects and experiments, not production systems. The notes b
 | [car-price-analysis](car-price-analysis/) | Exploratory analysis of a car price dataset | pandas, seaborn |
 | [ad-campaign-analysis](ad-campaign-analysis/) | Exploratory analysis of advertising campaign performance | pandas, seaborn |
 | [elden-ring-analysis](elden-ring-analysis/) | Elden Ring weapon stats analysis, plus a small Q&A text dataset and model sketch | pandas, seaborn, Keras |
+| [diabetes-analysis](diabetes-analysis/) | Exploratory analysis of the Pima Indians diabetes dataset (NIDDK) with PySpark | PySpark, pandas, seaborn |
 
 ## Notes per project
 
@@ -37,10 +38,11 @@ These are learning projects and experiments, not production systems. The notes b
 - Encoder–decoder LSTM on an intents dataset from Kaggle.
 - **Result:** training logs show loss and accuracy stuck at exactly 0, which means the training setup (targets or loss) is broken. It is kept as an experiment, not a working model.
 
-### car-price-analysis, ad-campaign-analysis, elden-ring-analysis
+### car-price-analysis, ad-campaign-analysis, elden-ring-analysis, diabetes-analysis
 - Exploratory data analysis with pandas and seaborn: distributions, correlations, top-N rankings and written conclusions (car price notebook, in Indonesian).
 - Data is downloaded from Kaggle with `kagglehub` (a copy of each CSV is included).
 - `elden-ring-analysis/modelling.ipynb` is only an unfinished model sketch.
+- `diabetes-analysis` uses **PySpark** DataFrames for the exploration; a logistic regression model is imported but not trained yet.
 
 ## Running
 
