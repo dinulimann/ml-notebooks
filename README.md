@@ -1,6 +1,6 @@
 # ML & Data Analysis Notebooks
 
-A collection of my machine-learning and data-analysis notebooks from 2023–2025, gathered in one place. Each folder used to be its own repository; its commit history is preserved here.
+A collection of my machine-learning and data-analysis notebooks from 2024–2025, gathered in one place. Each folder used to be its own repository; its commit history is preserved here.
 
 These are learning projects and experiments, not production systems. The notes below say plainly what worked and what didn't. For production-style work, see my [other repositories](https://github.com/dinulimann).
 
